@@ -1,0 +1,42 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/staging/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Data — keep small processed CSVs, ignore large raw dumps and tmp scratch
+data/raw/*.csv
+data/raw/*.json
+data/tmp_sim/
+!data/raw/.gitkeep
+
+# Quarto
+/.quarto/
+*_files/
+report/_book/
+report/_site/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
